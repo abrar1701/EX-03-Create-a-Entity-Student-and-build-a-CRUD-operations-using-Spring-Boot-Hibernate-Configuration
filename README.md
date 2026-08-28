@@ -38,7 +38,7 @@ PUT /students/{id} → Update student
 
 DELETE /students/{id} → Delete student
 
-##PROGRAM CODE
+## PROGRAM CODE
 
 ### pom.xml
 ```xml
@@ -113,7 +113,7 @@ public interface StudentRepository extends JpaRepository<Student, Long> {
 ```
 
 ### StudentController.java
-```
+```java
 package com.example.demo.controller;
 
 import com.example.demo.model.Student;
